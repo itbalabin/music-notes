@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  music-notes:
+    build: .
+    ports:
+      - "7900:7900"
+    restart: unless-stopped
